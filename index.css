@@ -1,0 +1,45 @@
+body{
+	font-family: arial;
+	font-size: 12px
+}
+
+table div{
+	display: inline-block;
+	border: 1px solid #cccccc;
+	padding: 1px;
+	margin:1px;
+	min-width: 1em;
+	text-align: center
+}
+
+td:first-of-type{
+	text-align: center;
+	min-width: 40px;
+}
+
+td:first-of-type + td{
+	min-width: 200px;
+	text-align: left;
+}
+
+.tit{
+	font-size: 24px;
+	padding: 0 0 20 0;
+	text-align: center;
+}
+
+.col{
+	float: left;
+	width: 50%;
+	text-align: center;
+	padding-top: 50px
+}
+
+button{
+	position: absolute;
+	top:10px;
+	left: 33%;
+	z-index: 1;
+	font-size: 16px;
+	cursor: pointer
+}
