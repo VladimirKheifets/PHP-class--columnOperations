@@ -18,12 +18,12 @@ Demo
 #### 1.1.1 Method сolumnAddition
 
 ##### сolumnAddition($augend, $addend)
-Parameters:  <br>$augend - (integer)  <br/>$addend - (integer)
+Parameters:<br>$augend - (integer)<br/>$addend - (integer)
 
-Assigns a value to private fields:  <br/> 
+Assigns a value to private fields:<br/> 
 maxColumn - (integer)
 
-Returns:<br>  (integer) $sum
+Returns:<br>(integer) $sum
 
 #### 1.1.2 Method columnAdditionArr
 
