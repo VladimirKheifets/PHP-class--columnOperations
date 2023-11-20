@@ -18,9 +18,9 @@ Demo
 #### 1.1.1 Method сolumnAddition
 
 ##### сolumnAddition($augend, $addend)
-Parameters:<br>$augend - (integer)<br/>$addend - (integer)
+Parameters:<br>$augend - (integer)<br>$addend - (integer)
 
-Assigns a value to private fields:<br/> 
+Assigns a value to private fields:<br>
 maxColumn - (integer)
 
 Returns:<br>(integer) $sum
@@ -29,20 +29,12 @@ Returns:<br>(integer) $sum
 
 ##### columnAdditionArr($numArr)
 
-Parameter:
+Parameter:<br>$numArr - (integer) an array of summands<br>or null, in case this method is called in the сolumnMultiplication method,
+gets the value from a private field:<br>numArr
 
-$numArr - (integer) an array of summands
-or null, in case this method is called in the сolumnMultiplication method,
-gets the value from a private field:
-numArr
+Assigns a value to private fields:<br>maxColumn - (integer)
 
-Assigns a value to private fields:
-
-maxColumn - (integer)
-
-Returns:
-
-(integer) $sum
+Returns:<br>(integer) $sum
 
 
 #### 1.1.3 Method сolumnMultiplication
