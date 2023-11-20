@@ -21,7 +21,8 @@ Demo
 Parameters:  <br>$augend - (integer)  <br/>$addend - (integer)
 
 Assigns a value to private fields:  <br/> 
-maxColumn - (integer)  <br/> 
+maxColumn - (integer)
+
 Returns:<br>(integer) $sum
 
 #### 1.1.2 Method columnAdditionArr
