@@ -20,13 +20,16 @@ Demo
 ##### сolumnAddition($augend, $addend)
 
 Parameters:
+
 $augend - (integer)
+
 $addend - (integer)
+
 
 Assigns a value to private fields:
 maxColumn - (integer)
 
-Return:
+Returns:
 (integer) $sum
 
 #### 1.1.2 Method columnAdditionArr
