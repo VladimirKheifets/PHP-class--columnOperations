@@ -1,6 +1,6 @@
 # PHP class сolumnOperations
 
-### Version: 2.0, 2023-11-02
+### Version: 2.0, 2023-11-20
 
 Author: Vladimir Kheifets <vladimir.kheifets.@online.de>
 
