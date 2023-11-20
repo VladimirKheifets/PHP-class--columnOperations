@@ -76,7 +76,7 @@ Returns:<br>$quotient - (float)
 Parameters:<br>$num - (integer) the number that should be output in html<br>$rowIndex - null or (integer)  row index for displaying a number with a digit shift<br>null - only after calling the сolumnMultiplication method, must be defined in other cases
 
 Returns:<br>(string) HTML - line in which each digit of a number is displayed in div tags.
-Complemented with empty (`{&nbsp;}`) div tags to the maximum number of digits in the sum or product
+Complemented with empty (`&nbsp;`) div tags to the maximum number of digits in the sum or product
 
 
 #### 1.2.2 Method сolumnDivisionToHTML
