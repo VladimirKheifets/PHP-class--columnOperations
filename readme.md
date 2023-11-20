@@ -29,8 +29,7 @@ Returns:<br>(integer) $sum
 
 ##### columnAdditionArr($numArr)
 
-Parameter:<br>$numArr - (integer) an array of summands<br>or null, in case this method is called in the сolumnMultiplication method,
-gets the value from a private field:<br>numArr
+Parameter:<br>$numArr - (integer) an array of summands or null, in case this method is called in the сolumnMultiplication method, gets the value from a private field: numArr
 
 Assigns a value to private fields:<br>maxColumn - (integer)
 
@@ -41,70 +40,32 @@ Returns:<br>(integer) $sum
 
 ##### сolumnMultiplication($multiplier, $multiplicand)
 
-Parameters:
+Parameters:<br>$multiplier - (integer)<br>$multiplicand - (integer)
 
-$multiplier - (integer)
+Assigns a value to fields:<br>public strArr - (array)<br>private numArr - (array)
 
-$multiplicand - (integer)
-
-
-Assigns a value to fields:
-
-public strArr - (array)
-
-private numArr - (array)
-
-
-Returns:
-
-product - (integer) multiplication result
+Returns:<br>product - (integer) multiplication result
 
 #### 1.1.4 Method сolumnSubtraction
 
 ##### сolumnSubtraction($minuend, $subtrahend)
 
-Parameters:
+Parameters:<br>$minuend - (integer)<br>$subtrahend - (integer)
 
-$minuend - (integer)
+Assigns a value to private fields:<br>maxColumn - (integer)
 
-$subtrahend - (integer)
-
-Assigns a value to private fields:
-
-maxColumn - (integer)
-
-Returns:
-
-$difference - (integer)
-
+Returns:<br>$difference - (integer)
 
 #### 1.1.5 Method сolumnDivision
 
 ##### сolumnDivision($dividend, $divisor, $withoutRemainder = false )
 
-Parameters:
+Parameters:<br>$dividend - (integer)<br>$divisor - (integer)<br>
+$withoutRemainder (boolean):<br>true - returns quotient (float) whith 15 digits<br>false - returns  quotient (float) without of precision
 
-$dividend - (integer)
+Assigns a value to public fields:<br>quotient - (float)<br>remainder - (integer)<br>divisionAllStepArr - an array of intermediate results for all steps of division
 
-$divisor - (integer)
-
-$withoutRemainder (boolean):
-
-true - returns quotient (float) whith 15 digits
-
-false - returns  quotient (float) without of precision
-
-Assigns a value to public fields:
-
-quotient - (float)
-
-remainder - (integer)
-
-divisionAllStepArr - an array of intermediate results for all steps of division
-
-Returns:
-
-$quotient - (float)
+Returns:<br>$quotient - (float)
 
 ### 1.2 Methods for outputting the results of basic methods in HTML format
 
@@ -112,17 +73,9 @@ $quotient - (float)
 
 ##### numberToDivStr($number, $rowIndex = null )
 
-Parameters:
+Parameters:<br>$num - (integer) the number that should be output in html<br>$rowIndex - null or (integer)  row index for displaying a number with a digit shift<br>null - only after calling the сolumnMultiplication method, must be defined in other cases
 
-$num - (integer) the number that should be output in html
-
-$rowIndex - null or (integer)  row index for displaying a number with a digit shift
-
-null - only after calling the сolumnMultiplication method, must be defined in other cases
-
-Returns:
-
-(string) HTML - line in which each digit of a number is displayed in div tags.
+Returns:<br>(string) HTML - line in which each digit of a number is displayed in div tags.
 Complemented with empty (&nbsp;) div tags to the maximum number of digits in the sum or product
 
 
@@ -130,9 +83,7 @@ Complemented with empty (&nbsp;) div tags to the maximum number of digits in the
 
 ##### сolumnDivisionToHTML()
 
-This Method gets the values of the class fields:
-
-dividend, divisor, quotient, remainder, divisionAllStepArr
+This Method gets the values of the class fields:<br>dividend,<br>divisor,<br>quotient,<br>remainder,<br>divisionAllStepArr
 
 Returns the result of division as a string in HTML format
 
