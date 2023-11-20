@@ -79,6 +79,7 @@ product - (integer) multiplication result
 ##### сolumnSubtraction($minuend, $subtrahend)
 
 Parameters:
+
 $minuend - (integer)
 $subtrahend - (integer)
 
