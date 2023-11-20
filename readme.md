@@ -81,31 +81,44 @@ product - (integer) multiplication result
 Parameters:
 
 $minuend - (integer)
+
 $subtrahend - (integer)
 
 Assigns a value to private fields:
+
 maxColumn - (integer)
 
 Returns:
+
 $difference - (integer)
+
 
 #### 1.1.5 Method сolumnDivision
 
 ##### сolumnDivision($dividend, $divisor, $withoutRemainder = false )
 
 Parameters:
+
 $dividend - (integer)
+
 $divisor - (integer)
+
 $withoutRemainder (boolean):
+
 true - returns quotient (float) whith 15 digits
+
 false - returns  quotient (float) without of precision
 
 Assigns a value to public fields:
+
 quotient - (float)
+
 remainder - (integer)
+
 divisionAllStepArr - an array of intermediate results for all steps of division
 
 Returns:
+
 $quotient - (float)
 
 ### 1.2 Methods for outputting the results of basic methods in HTML format
@@ -115,11 +128,16 @@ $quotient - (float)
 ##### numberToDivStr($number, $rowIndex = null )
 
 Parameters:
+
 $num - (integer) the number that should be output in html
+
 $rowIndex - null or (integer)  row index for displaying a number with a digit shift
+
 null - only after calling the сolumnMultiplication method, must be defined in other cases
 
-Returns: (string) HTML - line in which each digit of a number is displayed in div tags.
+Returns:
+
+(string) HTML - line in which each digit of a number is displayed in div tags.
 Complemented with empty (&nbsp;) div tags to the maximum number of digits in the sum or product
 
 
@@ -128,6 +146,7 @@ Complemented with empty (&nbsp;) div tags to the maximum number of digits in the
 ##### сolumnDivisionToHTML()
 
 This Method gets the values of the class fields:
+
 dividend, divisor, quotient, remainder, divisionAllStepArr
 
 Returns the result of division as a string in HTML format
