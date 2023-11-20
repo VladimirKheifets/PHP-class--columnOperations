@@ -153,8 +153,7 @@ Returns the result of division as a string in HTML format
 
 ### 2 Quellcodes in PHP und CSS
 
-### 2.2 File  сolumnOperationsClass.php
-
+#### 2.1 File  сolumnOperationsClass.php
 ```php
 <?
 /*
@@ -691,11 +690,7 @@ class сolumnOperations {
 }
 ?>
 ```
-
-### 2.2 Demo of the сolumnOperations class
-
-### 2.2.1 File index.php
-
+### 2.2 File index.php
 ```php
 <?
 include_once("сolumnOperationsClass.php");
@@ -869,8 +864,7 @@ else
 </body>
 </html>
 ```
-### 2.2.2 File index.css
-
+### 2.3 File index.css
 ```css
 body{
     font-family: arial;
