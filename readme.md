@@ -25,11 +25,11 @@ $augend - (integer)
 
 $addend - (integer)
 
-
 Assigns a value to private fields:
 maxColumn - (integer)
 
 Returns:
+
 (integer) $sum
 
 #### 1.1.2 Method columnAdditionArr
@@ -37,15 +37,18 @@ Returns:
 ##### columnAdditionArr($numArr)
 
 Parameter:
+
 $numArr - (integer) an array of summands
 or null, in case this method is called in the сolumnMultiplication method,
 gets the value from a private field:
 numArr
 
 Assigns a value to private fields:
+
 maxColumn - (integer)
 
 Returns:
+
 (integer) $sum
 
 
@@ -54,14 +57,21 @@ Returns:
 ##### сolumnMultiplication($multiplier, $multiplicand)
 
 Parameters:
+
 $multiplier - (integer)
+
 $multiplicand - (integer)
 
+
 Assigns a value to fields:
+
 public strArr - (array)
+
 private numArr - (array)
 
+
 Returns:
+
 product - (integer) multiplication result
 
 #### 1.1.4 Method сolumnSubtraction
