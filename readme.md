@@ -19,9 +19,8 @@ Demo
 
 ##### сolumnAddition($augend, $addend)
 
-Parameters:<br/>  
-$augend - (integer)  <br/>$addend - (integer)  <br/> 
-Assigns a value to private fields:
+Parameters:  <br> 
+$augend - (integer)  <br/>$addend - (integer)  <br/>Assigns a value to private fields:  <br/> 
 maxColumn - (integer)
 
 Returns:
